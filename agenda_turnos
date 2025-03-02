@@ -1,0 +1,115 @@
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+// Definición de la estructura de datos para almacenar los datos de los pacientes
+struct Paciente {
+    string nombre;
+    string telefono;
+    string turno;  // El turno puede representarse como una cadena de texto con la hora
+};
+
+// Clase que maneja la agenda de turnos
+class Agenda {
+private:
+    vector<Paciente> pacientes; // Vector para almacenar los pacientes
+    string turnos[7][10]; // Matriz para almacenar los turnos de los pacientes (7 días, 10 horarios)
+
+public:
+    // Constructor que inicializa la matriz de turnos vacíos
+    Agenda() {
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 10; j++) {
+                turnos[i][j] = ""; // Inicializa los turnos vacíos
+            }
+        }
+    }
+
+    // Método para agregar un paciente a la agenda
+    void agregarPaciente(string nombre, string telefono) {
+        Paciente paciente;
+        paciente.nombre = nombre;
+        paciente.telefono = telefono;
+        pacientes.push_back(paciente); // Añadimos el paciente al vector
+    }
+
+    // Método para asignar un turno a un paciente
+    void asignarTurno(string nombre, int dia, int hora) {
+        bool encontrado = false;
+        for (auto& paciente : pacientes) {
+            if (paciente.nombre == nombre && turnos[dia][hora] == "") {
+                turnos[dia][hora] = nombre; // Asigna el turno al paciente
+                cout << "Turno asignado a " << paciente.nombre << " para el dia " << dia+1 << " a las " << hora+1 << " horas." << endl;
+                encontrado = true;
+                break;
+            }
+        }
+        if (!encontrado) {
+            cout << "Paciente no encontrado o turno no disponible." << endl;
+        }
+    }
+
+    // Método para visualizar los turnos asignados
+    void visualizarTurnos() {
+        cout << "Reporte de turnos:" << endl;
+        for (int i = 0; i < 7; i++) {
+            cout << "Dia " << i+1 << ": ";
+            for (int j = 0; j < 10; j++) {
+                if (turnos[i][j] != "") {
+                    cout << "Turno a las " << j+1 << " horas: " << turnos[i][j] << " | ";
+                }
+            }
+            cout << endl;
+        }
+    }
+
+    // Método para consultar los turnos de un paciente
+    void consultarTurnosPaciente(string nombre) {
+        cout << "Consultando turnos para " << nombre << "..." << endl;
+        bool encontrado = false;
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 10; j++) {
+                if (turnos[i][j] == nombre) {
+                    cout << "Dia " << i+1 << " a las " << j+1 << " horas." << endl;
+                    encontrado = true;
+                }
+            }
+        }
+        if (!encontrado) {
+            cout << "No se encontraron turnos para " << nombre << "." << endl;
+        }
+    }
+
+    // Análisis de las estructuras utilizadas
+    void analizarEstructuras() {
+        cout << "\nAnálisis de las estructuras utilizadas:" << endl;
+        cout << "1. Vector de Pacientes: Es eficiente para almacenar un número variable de pacientes debido a su capacidad de expansión dinámica." << endl;
+        cout << "2. Matriz de turnos: Aunque eficiente en la representación de turnos, tiene la limitación de ser de tamaño fijo y no permite una expansión dinámica." << endl;
+        cout << "Ventajas de la matriz: Acceso rápido a las posiciones específicas de los turnos, permite una representación clara de los horarios." << endl;
+        cout << "Desventajas: No flexible en cuanto al número de turnos que se pueden manejar sin una redefinición del tamaño." << endl;
+    }
+};
+
+int main() {
+    Agenda agenda;
+
+    // Agregar pacientes
+    agenda.agregarPaciente("Juan Perez", "123456789");
+    agenda.agregarPaciente("Maria Lopez", "987654321");
+
+    // Asignar turnos
+    agenda.asignarTurno("Juan Perez", 0, 0); // Día 1, 10:00
+    agenda.asignarTurno("Maria Lopez", 0, 1); // Día 1, 11:00
+
+    // Mostrar todos los turnos
+    agenda.visualizarTurnos();
+
+    // Consultar turnos de un paciente
+    agenda.consultarTurnosPaciente("Juan Perez");
+
+    // Análisis de las estructuras utilizadas
+    agenda.analizarEstructuras();
+
+    return 0;
+}
