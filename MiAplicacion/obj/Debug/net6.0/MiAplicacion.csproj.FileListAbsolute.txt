@@ -1,0 +1,5 @@
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.csproj.AssemblyReference.cache
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.AssemblyInfoInputs.cache
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.AssemblyInfo.cs
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.csproj.CoreCompileInputs.cache
