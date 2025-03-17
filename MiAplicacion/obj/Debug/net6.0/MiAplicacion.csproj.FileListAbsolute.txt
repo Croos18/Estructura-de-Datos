@@ -3,3 +3,4 @@ C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj
 C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.AssemblyInfoInputs.cache
 C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.AssemblyInfo.cs
 C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.csproj.CoreCompileInputs.cache
+c:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\MiAplicacion\obj\Debug\net6.0\MiAplicacion.sourcelink.json

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj": {}
+    "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj": {
+    "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
+        "projectUniqueName": "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
         "projectName": "MiAplicacion",
-        "projectPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
+        "projectPath": "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
         "packagesPath": "C:\\Users\\osriper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\obj\\",
+        "outputPath": "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osriper\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -48,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

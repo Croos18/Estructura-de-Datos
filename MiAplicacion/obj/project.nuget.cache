@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AhUbfvhcE9l9IX99+dOIckjgCphHAiC1OOdE+ynwXrkJqLBEpQzjWAd6W6USxISQxPEbczhJRLxhIyYELbbWQg==",
+  "dgSpecHash": "vPFTgNEHg7M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\osriper\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\osriper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\osriper\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\osriper\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

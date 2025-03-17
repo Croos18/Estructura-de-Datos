@@ -1,0 +1,15 @@
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\bin\Debug\net9.0\Semana-13.exe
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\bin\Debug\net9.0\Semana-13.deps.json
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\bin\Debug\net9.0\Semana-13.runtimeconfig.json
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\bin\Debug\net9.0\Semana-13.dll
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\bin\Debug\net9.0\Semana-13.pdb
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.AssemblyInfoInputs.cache
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.AssemblyInfo.cs
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.csproj.CoreCompileInputs.cache
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.sourcelink.json
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.dll
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\refint\Semana-13.dll
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.pdb
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\Semana-13.genruntimeconfig.cache
+C:\Users\osriper\Desktop\Repositorio Adrian\Estructura-de-Datos\Semana-13\obj\Debug\net9.0\ref\Semana-13.dll

@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net9.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\osriper\\.nuget\\packages\\": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
-      "projectName": "MiAplicacion",
-      "projectPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
+      "projectUniqueName": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\Semana-13\\Semana-13.csproj",
+      "projectName": "Semana-13",
+      "projectPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\Semana-13\\Semana-13.csproj",
       "packagesPath": "C:\\Users\\osriper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\obj\\",
+      "outputPath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\Semana-13\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osriper\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -47,8 +47,8 @@
       "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "imports": [
           "net461",
           "net462",
@@ -60,30 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
