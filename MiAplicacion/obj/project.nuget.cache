@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vPFTgNEHg7M=",
+  "dgSpecHash": "XGFGEW3/els=",
   "success": true,
-  "projectFilePath": "c:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
+  "projectFilePath": "C:\\Users\\osriper\\Desktop\\Repositorio Adrian\\Estructura-de-Datos\\MiAplicacion\\MiAplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osriper\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\osriper\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
